@@ -42,8 +42,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>OpenAI Quickstart</title>
-        <link rel="icon" href="/dog.png" />
+        <title>Workout Plan maker</title>
+        <link rel="icon" href="/work.png" />
       </Head>
 
       <main className={styles.main}>
@@ -94,7 +94,6 @@ export default function Home() {
         )}
         {result && (
           <div>
-            <h4> Your Plan : </h4>
             <div
               className={styles.result}
               dangerouslySetInnerHTML={{ __html: result }}
