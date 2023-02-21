@@ -41,13 +41,29 @@
   flex-direction: column;
   width: 320px;
 }
-.main input[type="text"] {
+.main .loading {
+  width: 50;
+}
+
+.main input[type="text"],
+.main input[type="number"],
+.main select {
+  padding: 12px 16px;
+  border: 1px solid #10a37f;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  margin-top: 4px;
+}
+/* .main input[type="text"],
+.main input[type="number"],
+.main input[type="radio"],
+.main select {
   padding: 12px 16px;
   border: 1px solid #10a37f;
   border-radius: 4px;
   margin-bottom: 24px;
   outline-color: #10a37f;
-}
+} */
 .main ::placeholder {
   color: #8e8ea0;
   opacity: 1;
